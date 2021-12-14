@@ -16,6 +16,8 @@
 		9C98A1A22767463A00EF8F6A /* Pwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A12767463A00EF8F6A /* Pwrite.swift */; };
 		9C98A1A42767464400EF8F6A /* Pread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A32767464400EF8F6A /* Pread.swift */; };
 		9C98A1A62767464C00EF8F6A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A52767464C00EF8F6A /* Settings.swift */; };
+		9C98A1B227678A8D00EF8F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1B127678A8D00EF8F6A /* Main.storyboard */; };
+		9C98A1B42767982200EF8F6A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1B32767982200EF8F6A /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		9C98A1A12767463A00EF8F6A /* Pwrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pwrite.swift; sourceTree = "<group>"; };
 		9C98A1A32767464400EF8F6A /* Pread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pread.swift; sourceTree = "<group>"; };
 		9C98A1A52767464C00EF8F6A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9C98A1B127678A8D00EF8F6A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C98A1B32767982200EF8F6A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				9C98A1942767268A00EF8F6A /* Preview Assets.xcassets */,
+				9C98A1B127678A8D00EF8F6A /* Main.storyboard */,
+				9C98A1B32767982200EF8F6A /* SwiftUIView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C98A1B227678A8D00EF8F6A /* Main.storyboard in Resources */,
 				9C98A1952767268A00EF8F6A /* Preview Assets.xcassets in Resources */,
 				9C98A1922767268A00EF8F6A /* Assets.xcassets in Resources */,
 			);
@@ -154,6 +161,7 @@
 			files = (
 				9C98A1902767268600EF8F6A /* ContentView.swift in Sources */,
 				9C98A18E2767268600EF8F6A /* eleproApp.swift in Sources */,
+				9C98A1B42767982200EF8F6A /* SwiftUIView.swift in Sources */,
 				9C98A1A42767464400EF8F6A /* Pread.swift in Sources */,
 				9C98A19C2767270B00EF8F6A /* ButtonBottom.swift in Sources */,
 				9C98A1A62767464C00EF8F6A /* Settings.swift in Sources */,

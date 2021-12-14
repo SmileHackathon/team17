@@ -14,7 +14,10 @@
 		9C98A1CB2767988500EF8F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1CA2767988500EF8F6A /* Assets.xcassets */; };
 		9C98A1CE2767988500EF8F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1CC2767988500EF8F6A /* LaunchScreen.storyboard */; };
 		9C98A1D62767A21D00EF8F6A /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */; };
+<<<<<<< HEAD
 		E6412CF2276820E000D78CE6 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6412CF1276820E000D78CE6 /* RegistrationViewController.swift */; };
+=======
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		9C98A1CD2767988500EF8F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C98A1CF2767988500EF8F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		E6412CF1276820E000D78CE6 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 			children = (
 				9C98A1C12767988100EF8F6A /* AppDelegate.swift */,
 				9C98A1C32767988100EF8F6A /* SceneDelegate.swift */,
+<<<<<<< HEAD
 				E6412CF1276820E000D78CE6 /* RegistrationViewController.swift */,
+=======
+>>>>>>> main
 				9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */,
 				9C98A1C52767988100EF8F6A /* ViewController.swift */,
 				9C98A1C72767988100EF8F6A /* Main.storyboard */,
@@ -148,7 +157,10 @@
 				9C98A1C22767988100EF8F6A /* AppDelegate.swift in Sources */,
 				9C98A1C42767988100EF8F6A /* SceneDelegate.swift in Sources */,
 				9C98A1D62767A21D00EF8F6A /* MyTabBar.swift in Sources */,
+<<<<<<< HEAD
 				E6412CF2276820E000D78CE6 /* RegistrationViewController.swift in Sources */,
+=======
+>>>>>>> main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

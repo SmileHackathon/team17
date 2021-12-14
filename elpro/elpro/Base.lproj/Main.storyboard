@@ -22,9 +22,15 @@
                     </tabBar>
                     <connections>
                         <segue destination="8Ec-Ri-4zc" kind="relationship" relationship="viewControllers" id="kfn-Qp-Ib8"/>
+<<<<<<< HEAD
                         <segue destination="2Nd-Tl-qWS" kind="relationship" relationship="viewControllers" id="rCK-2y-GOu"/>
                         <segue destination="LBC-2q-wyu" kind="relationship" relationship="viewControllers" id="4VV-ML-faz"/>
                         <segue destination="QnT-G2-rVf" kind="relationship" relationship="viewControllers" id="7E7-m6-dgZ"/>
+=======
+                        <segue destination="3dt-Qa-7kx" kind="relationship" relationship="viewControllers" id="rCK-2y-GOu"/>
+                        <segue destination="LBC-2q-wyu" kind="relationship" relationship="viewControllers" id="4VV-ML-faz"/>
+                        <segue destination="u9U-CC-3Yt" kind="relationship" relationship="viewControllers" id="7E7-m6-dgZ"/>
+>>>>>>> main
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrj-GI-Ilp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -34,8 +40,13 @@
         <!--MyPage-->
         <scene sceneID="4jb-7o-Lfi">
             <objects>
+<<<<<<< HEAD
                 <viewController title="MyPage" modalPresentationStyle="fullScreen" id="8Ec-Ri-4zc" customClass="RegistrationViewController" customModule="elpro" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cHS-Az-5gm" customClass="Re">
+=======
+                <viewController title="MyPage" modalPresentationStyle="fullScreen" id="8Ec-Ri-4zc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cHS-Az-5gm">
+>>>>>>> main
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -153,11 +164,19 @@
                         <viewLayoutGuide key="safeArea" id="rsL-GL-jhr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="Zlg-cx-aIG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUX-Zj-uGp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-704.34782608695662" y="-732.06521739130437"/>
+=======
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="s0O-tn-F1l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vUX-Zj-uGp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2518.840579710145" y="-732.06521739130437"/>
+>>>>>>> main
         </scene>
         <!--wacth-->
         <scene sceneID="UbT-sx-cp8">
@@ -249,12 +268,20 @@
                         <viewLayoutGuide key="safeArea" id="AOU-v4-BMq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+<<<<<<< HEAD
+=======
+                    <tabBarItem key="tabBarItem" systemItem="search" id="ciV-sd-3ey"/>
+>>>>>>> main
                     <navigationItem key="navigationItem" id="dSg-RV-km1"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J02-hw-FCC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-704.34782608695662" y="710.86956521739137"/>
+=======
+            <point key="canvasLocation" x="-2518.840579710145" y="710.86956521739137"/>
+>>>>>>> main
         </scene>
         <!--View Controller-->
         <scene sceneID="nQQ-wY-fNJ">
@@ -346,7 +373,11 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="送信"/>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="QnT-G2-rVf" kind="show" id="ax3-yM-gdC"/>
+=======
+                                    <segue destination="u9U-CC-3Yt" kind="show" id="ax3-yM-gdC"/>
+>>>>>>> main
                                 </connections>
                             </button>
                         </subviews>
@@ -359,7 +390,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pm3-Jg-8jd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="100.00000000000001" y="710.86956521739137"/>
+=======
+            <point key="canvasLocation" x="-1714.4927536231885" y="710.86956521739137"/>
+>>>>>>> main
         </scene>
         <!--MyPage-->
         <scene sceneID="e1M-ib-Gkc">
@@ -483,6 +518,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xO8-vv-OgL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="100.00000000000001" y="-732.06521739130437"/>
         </scene>
         <!--Navigation Controller-->
@@ -566,6 +602,13 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="7E7-m6-dgZ"/>
+=======
+            <point key="canvasLocation" x="-1714.4927536231885" y="-732.06521739130437"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ax3-yM-gdC"/>
+>>>>>>> main
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
