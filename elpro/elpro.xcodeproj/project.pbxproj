@@ -7,36 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C98A18E2767268600EF8F6A /* eleproApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A18D2767268600EF8F6A /* eleproApp.swift */; };
-		9C98A1902767268600EF8F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A18F2767268600EF8F6A /* ContentView.swift */; };
-		9C98A1922767268A00EF8F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1912767268A00EF8F6A /* Assets.xcassets */; };
-		9C98A1952767268A00EF8F6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1942767268A00EF8F6A /* Preview Assets.xcassets */; };
-		9C98A19C2767270B00EF8F6A /* ButtonBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A19B2767270B00EF8F6A /* ButtonBottom.swift */; };
-		9C98A1A02767462F00EF8F6A /* Ptrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A19F2767462F00EF8F6A /* Ptrade.swift */; };
-		9C98A1A22767463A00EF8F6A /* Pwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A12767463A00EF8F6A /* Pwrite.swift */; };
-		9C98A1A42767464400EF8F6A /* Pread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A32767464400EF8F6A /* Pread.swift */; };
-		9C98A1A62767464C00EF8F6A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1A52767464C00EF8F6A /* Settings.swift */; };
-		9C98A1B227678A8D00EF8F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1B127678A8D00EF8F6A /* Main.storyboard */; };
-		9C98A1B42767982200EF8F6A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1B32767982200EF8F6A /* SwiftUIView.swift */; };
+		9C98A1C22767988100EF8F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1C12767988100EF8F6A /* AppDelegate.swift */; };
+		9C98A1C42767988100EF8F6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1C32767988100EF8F6A /* SceneDelegate.swift */; };
+		9C98A1C62767988100EF8F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1C52767988100EF8F6A /* ViewController.swift */; };
+		9C98A1C92767988100EF8F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1C72767988100EF8F6A /* Main.storyboard */; };
+		9C98A1CB2767988500EF8F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1CA2767988500EF8F6A /* Assets.xcassets */; };
+		9C98A1CE2767988500EF8F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C98A1CC2767988500EF8F6A /* LaunchScreen.storyboard */; };
+		9C98A1D62767A21D00EF8F6A /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C98A18A2767268600EF8F6A /* elepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C98A18D2767268600EF8F6A /* eleproApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleproApp.swift; sourceTree = "<group>"; };
-		9C98A18F2767268600EF8F6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9C98A1912767268A00EF8F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C98A1942767268A00EF8F6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9C98A19B2767270B00EF8F6A /* ButtonBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBottom.swift; sourceTree = "<group>"; };
-		9C98A19F2767462F00EF8F6A /* Ptrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ptrade.swift; sourceTree = "<group>"; };
-		9C98A1A12767463A00EF8F6A /* Pwrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pwrite.swift; sourceTree = "<group>"; };
-		9C98A1A32767464400EF8F6A /* Pread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pread.swift; sourceTree = "<group>"; };
-		9C98A1A52767464C00EF8F6A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		9C98A1B127678A8D00EF8F6A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9C98A1B32767982200EF8F6A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		9C98A1BE2767988100EF8F6A /* elpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C98A1C12767988100EF8F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C98A1C32767988100EF8F6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C98A1C52767988100EF8F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C98A1C82767988100EF8F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C98A1CA2767988500EF8F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C98A1CD2767988500EF8F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C98A1CF2767988500EF8F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C98A1872767268600EF8F6A /* Frameworks */ = {
+		9C98A1BB2767988100EF8F6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,84 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C98A1812767268600EF8F6A = {
+		9C98A1B52767988100EF8F6A = {
 			isa = PBXGroup;
 			children = (
-				9C98A18C2767268600EF8F6A /* elepro */,
-				9C98A18B2767268600EF8F6A /* Products */,
+				9C98A1C02767988100EF8F6A /* elpro */,
+				9C98A1BF2767988100EF8F6A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9C98A18B2767268600EF8F6A /* Products */ = {
+		9C98A1BF2767988100EF8F6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C98A18A2767268600EF8F6A /* elepro.app */,
+				9C98A1BE2767988100EF8F6A /* elpro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C98A18C2767268600EF8F6A /* elepro */ = {
+		9C98A1C02767988100EF8F6A /* elpro */ = {
 			isa = PBXGroup;
 			children = (
-				9C98A18D2767268600EF8F6A /* eleproApp.swift */,
-				9C98A18F2767268600EF8F6A /* ContentView.swift */,
-				9C98A19B2767270B00EF8F6A /* ButtonBottom.swift */,
-				9C98A1A52767464C00EF8F6A /* Settings.swift */,
-				9C98A19F2767462F00EF8F6A /* Ptrade.swift */,
-				9C98A1A12767463A00EF8F6A /* Pwrite.swift */,
-				9C98A1A32767464400EF8F6A /* Pread.swift */,
-				9C98A1912767268A00EF8F6A /* Assets.xcassets */,
-				9C98A1932767268A00EF8F6A /* Preview Content */,
+				9C98A1C12767988100EF8F6A /* AppDelegate.swift */,
+				9C98A1C32767988100EF8F6A /* SceneDelegate.swift */,
+				9C98A1D52767A21D00EF8F6A /* MyTabBar.swift */,
+				9C98A1C52767988100EF8F6A /* ViewController.swift */,
+				9C98A1C72767988100EF8F6A /* Main.storyboard */,
+				9C98A1CA2767988500EF8F6A /* Assets.xcassets */,
+				9C98A1CC2767988500EF8F6A /* LaunchScreen.storyboard */,
+				9C98A1CF2767988500EF8F6A /* Info.plist */,
 			);
-			path = elepro;
-			sourceTree = "<group>";
-		};
-		9C98A1932767268A00EF8F6A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9C98A1942767268A00EF8F6A /* Preview Assets.xcassets */,
-				9C98A1B127678A8D00EF8F6A /* Main.storyboard */,
-				9C98A1B32767982200EF8F6A /* SwiftUIView.swift */,
-			);
-			path = "Preview Content";
+			path = elpro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C98A1892767268600EF8F6A /* elepro */ = {
+		9C98A1BD2767988100EF8F6A /* elpro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C98A1982767268A00EF8F6A /* Build configuration list for PBXNativeTarget "elepro" */;
+			buildConfigurationList = 9C98A1D22767988500EF8F6A /* Build configuration list for PBXNativeTarget "elpro" */;
 			buildPhases = (
-				9C98A1862767268600EF8F6A /* Sources */,
-				9C98A1872767268600EF8F6A /* Frameworks */,
-				9C98A1882767268600EF8F6A /* Resources */,
+				9C98A1BA2767988100EF8F6A /* Sources */,
+				9C98A1BB2767988100EF8F6A /* Frameworks */,
+				9C98A1BC2767988100EF8F6A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = elepro;
-			productName = elepro;
-			productReference = 9C98A18A2767268600EF8F6A /* elepro.app */;
+			name = elpro;
+			productName = elpro;
+			productReference = 9C98A1BE2767988100EF8F6A /* elpro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C98A1822767268600EF8F6A /* Project object */ = {
+		9C98A1B62767988100EF8F6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					9C98A1892767268600EF8F6A = {
+					9C98A1BD2767988100EF8F6A = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 9C98A1852767268600EF8F6A /* Build configuration list for PBXProject "elepro" */;
+			buildConfigurationList = 9C98A1B92767988100EF8F6A /* Build configuration list for PBXProject "elpro" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,49 +113,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C98A1812767268600EF8F6A;
-			productRefGroup = 9C98A18B2767268600EF8F6A /* Products */;
+			mainGroup = 9C98A1B52767988100EF8F6A;
+			productRefGroup = 9C98A1BF2767988100EF8F6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C98A1892767268600EF8F6A /* elepro */,
+				9C98A1BD2767988100EF8F6A /* elpro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C98A1882767268600EF8F6A /* Resources */ = {
+		9C98A1BC2767988100EF8F6A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C98A1B227678A8D00EF8F6A /* Main.storyboard in Resources */,
-				9C98A1952767268A00EF8F6A /* Preview Assets.xcassets in Resources */,
-				9C98A1922767268A00EF8F6A /* Assets.xcassets in Resources */,
+				9C98A1CE2767988500EF8F6A /* LaunchScreen.storyboard in Resources */,
+				9C98A1CB2767988500EF8F6A /* Assets.xcassets in Resources */,
+				9C98A1C92767988100EF8F6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C98A1862767268600EF8F6A /* Sources */ = {
+		9C98A1BA2767988100EF8F6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C98A1902767268600EF8F6A /* ContentView.swift in Sources */,
-				9C98A18E2767268600EF8F6A /* eleproApp.swift in Sources */,
-				9C98A1B42767982200EF8F6A /* SwiftUIView.swift in Sources */,
-				9C98A1A42767464400EF8F6A /* Pread.swift in Sources */,
-				9C98A19C2767270B00EF8F6A /* ButtonBottom.swift in Sources */,
-				9C98A1A62767464C00EF8F6A /* Settings.swift in Sources */,
-				9C98A1A02767462F00EF8F6A /* Ptrade.swift in Sources */,
-				9C98A1A22767463A00EF8F6A /* Pwrite.swift in Sources */,
+				9C98A1C62767988100EF8F6A /* ViewController.swift in Sources */,
+				9C98A1C22767988100EF8F6A /* AppDelegate.swift in Sources */,
+				9C98A1C42767988100EF8F6A /* SceneDelegate.swift in Sources */,
+				9C98A1D62767A21D00EF8F6A /* MyTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		9C98A1C72767988100EF8F6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C98A1C82767988100EF8F6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C98A1CC2767988500EF8F6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C98A1CD2767988500EF8F6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		9C98A1962767268A00EF8F6A /* Debug */ = {
+		9C98A1D02767988500EF8F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		9C98A1972767268A00EF8F6A /* Release */ = {
+		9C98A1D12767988500EF8F6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,19 +286,18 @@
 			};
 			name = Release;
 		};
-		9C98A1992767268A00EF8F6A /* Debug */ = {
+		9C98A1D32767988500EF8F6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"elepro/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = elpro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sample.elepro;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.elpro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,19 +313,18 @@
 			};
 			name = Debug;
 		};
-		9C98A19A2767268A00EF8F6A /* Release */ = {
+		9C98A1D42767988500EF8F6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"elepro/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = elpro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sample.elepro;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.elpro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C98A1852767268600EF8F6A /* Build configuration list for PBXProject "elepro" */ = {
+		9C98A1B92767988100EF8F6A /* Build configuration list for PBXProject "elpro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C98A1962767268A00EF8F6A /* Debug */,
-				9C98A1972767268A00EF8F6A /* Release */,
+				9C98A1D02767988500EF8F6A /* Debug */,
+				9C98A1D12767988500EF8F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C98A1982767268A00EF8F6A /* Build configuration list for PBXNativeTarget "elepro" */ = {
+		9C98A1D22767988500EF8F6A /* Build configuration list for PBXNativeTarget "elpro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C98A1992767268A00EF8F6A /* Debug */,
-				9C98A19A2767268A00EF8F6A /* Release */,
+				9C98A1D32767988500EF8F6A /* Debug */,
+				9C98A1D42767988500EF8F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C98A1822767268600EF8F6A /* Project object */;
+	rootObject = 9C98A1B62767988100EF8F6A /* Project object */;
 }
