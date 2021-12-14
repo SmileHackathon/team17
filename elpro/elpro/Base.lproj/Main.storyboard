@@ -179,21 +179,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7kD-aX-7JN">
-                                    <size key="itemSize" width="374" height="539"/>
+                                    <size key="itemSize" width="374" height="584"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gjj-7k-2N8">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="539"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="584"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rjF-72-E53">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="539"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="584"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
                                         <gestureRecognizers/>
-                                        <size key="customSize" width="374" height="539"/>
+                                        <size key="customSize" width="374" height="584"/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="O1H-D0-Hcq" appends="YES" id="hyi-fw-PuR"/>
                                         </connections>
@@ -240,6 +240,9 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="xx年xxクラスxx番       xxxxxxx"/>
+                                        <connections>
+                                            <segue destination="UfO-vt-SX0" kind="show" id="T7q-hp-ZmQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <viewLayoutGuide key="contentLayoutGuide" id="QZc-TJ-D1Z"/>
@@ -342,7 +345,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blR-IZ-jmi">
-                                <rect key="frame" x="181" y="632" width="53" height="31"/>
+                                <rect key="frame" x="178" y="630" width="59" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="送信"/>
@@ -354,7 +357,6 @@
                         <viewLayoutGuide key="safeArea" id="4yx-1f-j37"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="qw5-nX-XeD"/>
                     <navigationItem key="navigationItem" id="tnF-af-Z0W"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -439,7 +441,6 @@
                         <viewLayoutGuide key="safeArea" id="7LM-KN-6cg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="XFL-eh-UOE"/>
                     <navigationItem key="navigationItem" id="R5P-72-ns4"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -478,7 +479,6 @@
                         <viewLayoutGuide key="safeArea" id="8aD-IY-i09"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="mMf-hm-NqO"/>
                     <navigationItem key="navigationItem" id="tFW-Oc-DGp"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
