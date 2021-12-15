@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ED92555BA322218C808D60D /* Pods_Blue_ePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59A10CB231DCB91AAECE7F4 /* Pods_Blue_ePro.framework */; };
 		9C90839B2768DC9F002F615E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90839A2768DC9F002F615E /* AppDelegate.swift */; };
 		9C90839D2768DC9F002F615E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90839C2768DC9F002F615E /* SceneDelegate.swift */; };
 		9C90839F2768DC9F002F615E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90839E2768DC9F002F615E /* ViewController.swift */; };
 		9C9083A22768DC9F002F615E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9083A02768DC9F002F615E /* Main.storyboard */; };
 		9C9083A42768DCA1002F615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9083A32768DCA1002F615E /* Assets.xcassets */; };
 		9C9083A72768DCA1002F615E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9083A52768DCA1002F615E /* LaunchScreen.storyboard */; };
+		E687A0EA276A58C100555375 /* sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0E9276A58C100555375 /* sample.swift */; };
+		E687A0EC276A5A2F00555375 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305822D7E2281930E7C121C5 /* Pods-Blue-ePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue-ePro.debug.xcconfig"; path = "Target Support Files/Pods-Blue-ePro/Pods-Blue-ePro.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDEDCEFA41D86FB6DC19830 /* Pods-Blue-ePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blue-ePro.release.xcconfig"; path = "Target Support Files/Pods-Blue-ePro/Pods-Blue-ePro.release.xcconfig"; sourceTree = "<group>"; };
 		9C9083972768DC9F002F615E /* Blue-ePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue-ePro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C90839A2768DC9F002F615E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C90839C2768DC9F002F615E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		9C9083A32768DCA1002F615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C9083A62768DCA1002F615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C9083A82768DCA1002F615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59A10CB231DCB91AAECE7F4 /* Pods_Blue_ePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blue_ePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E687A0E9276A58C100555375 /* sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample.swift; sourceTree = "<group>"; };
+		E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E687A0ED276A633500555375 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED92555BA322218C808D60D /* Pods_Blue_ePro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DF946FC7CF47A75C9749856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305822D7E2281930E7C121C5 /* Pods-Blue-ePro.debug.xcconfig */,
+				6EDEDCEFA41D86FB6DC19830 /* Pods-Blue-ePro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96295C2A7C6A8C620955F49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59A10CB231DCB91AAECE7F4 /* Pods_Blue_ePro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C90838E2768DC9F002F615E = {
 			isa = PBXGroup;
 			children = (
 				9C9083992768DC9F002F615E /* Blue-ePro */,
 				9C9083982768DC9F002F615E /* Products */,
+				8DF946FC7CF47A75C9749856 /* Pods */,
+				96295C2A7C6A8C620955F49A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +92,9 @@
 				9C9083A32768DCA1002F615E /* Assets.xcassets */,
 				9C9083A52768DCA1002F615E /* LaunchScreen.storyboard */,
 				9C9083A82768DCA1002F615E /* Info.plist */,
+				E687A0E9276A58C100555375 /* sample.swift */,
+				E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */,
+				E687A0ED276A633500555375 /* MyPlayground.playground */,
 			);
 			path = "Blue-ePro";
 			sourceTree = "<group>";
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C9083AB2768DCA1002F615E /* Build configuration list for PBXNativeTarget "Blue-ePro" */;
 			buildPhases = (
+				10F1B700D9F2C99CCEF297CA /* [CP] Check Pods Manifest.lock */,
 				9C9083932768DC9F002F615E /* Sources */,
 				9C9083942768DC9F002F615E /* Frameworks */,
 				9C9083952768DC9F002F615E /* Resources */,
+				4F34857209C85E6355C52763 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C9083A72768DCA1002F615E /* LaunchScreen.storyboard in Resources */,
+				E687A0EC276A5A2F00555375 /* GoogleService-Info.plist in Resources */,
 				9C9083A42768DCA1002F615E /* Assets.xcassets in Resources */,
 				9C9083A22768DC9F002F615E /* Main.storyboard in Resources */,
 			);
@@ -133,12 +168,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10F1B700D9F2C99CCEF297CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blue-ePro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F34857209C85E6355C52763 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blue-ePro/Pods-Blue-ePro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blue-ePro/Pods-Blue-ePro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blue-ePro/Pods-Blue-ePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C9083932768DC9F002F615E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9C90839F2768DC9F002F615E /* ViewController.swift in Sources */,
+				E687A0EA276A58C100555375 /* sample.swift in Sources */,
 				9C90839B2768DC9F002F615E /* AppDelegate.swift in Sources */,
 				9C90839D2768DC9F002F615E /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +362,7 @@
 		};
 		9C9083AC2768DCA1002F615E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305822D7E2281930E7C121C5 /* Pods-Blue-ePro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +391,7 @@
 		};
 		9C9083AD2768DCA1002F615E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDEDCEFA41D86FB6DC19830 /* Pods-Blue-ePro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
