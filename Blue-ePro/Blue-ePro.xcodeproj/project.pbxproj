@@ -16,6 +16,12 @@
 		9C9083A72768DCA1002F615E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9083A52768DCA1002F615E /* LaunchScreen.storyboard */; };
 		E687A0EA276A58C100555375 /* sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0E9276A58C100555375 /* sample.swift */; };
 		E687A0EC276A5A2F00555375 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */; };
+		E687A0EF276B2C1800555375 /* addBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0EE276B2C1800555375 /* addBackground.swift */; };
+		E687A0F5276B30C900555375 /* ProfCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0F4276B30C900555375 /* ProfCollectionView.swift */; };
+		E687A0F9276B57E200555375 /* WriteProfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0F8276B57E200555375 /* WriteProfView.swift */; };
+		E687A0FB276B5AF300555375 /* WriteProfView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0FA276B5AF300555375 /* WriteProfView2.swift */; };
+		E687A0FD276B708100555375 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0FC276B708100555375 /* SliderCell.swift */; };
+		E687A0FF276B7BAC00555375 /* SeeProfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0FE276B7BAC00555375 /* SeeProfView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,12 @@
 		E687A0E9276A58C100555375 /* sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample.swift; sourceTree = "<group>"; };
 		E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E687A0ED276A633500555375 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E687A0EE276B2C1800555375 /* addBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBackground.swift; sourceTree = "<group>"; };
+		E687A0F4276B30C900555375 /* ProfCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfCollectionView.swift; sourceTree = "<group>"; };
+		E687A0F8276B57E200555375 /* WriteProfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteProfView.swift; sourceTree = "<group>"; };
+		E687A0FA276B5AF300555375 /* WriteProfView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteProfView2.swift; sourceTree = "<group>"; };
+		E687A0FC276B708100555375 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		E687A0FE276B7BAC00555375 /* SeeProfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeProfView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +106,13 @@
 				9C9083A82768DCA1002F615E /* Info.plist */,
 				E687A0E9276A58C100555375 /* sample.swift */,
 				E687A0EB276A5A2F00555375 /* GoogleService-Info.plist */,
+				E687A0F4276B30C900555375 /* ProfCollectionView.swift */,
+				E687A0EE276B2C1800555375 /* addBackground.swift */,
+				E687A0F8276B57E200555375 /* WriteProfView.swift */,
+				E687A0FA276B5AF300555375 /* WriteProfView2.swift */,
+				E687A0FC276B708100555375 /* SliderCell.swift */,
 				E687A0ED276A633500555375 /* MyPlayground.playground */,
+				E687A0FE276B7BAC00555375 /* SeeProfView.swift */,
 			);
 			path = "Blue-ePro";
 			sourceTree = "<group>";
@@ -216,8 +234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C90839F2768DC9F002F615E /* ViewController.swift in Sources */,
+				E687A0EF276B2C1800555375 /* addBackground.swift in Sources */,
+				E687A0F9276B57E200555375 /* WriteProfView.swift in Sources */,
 				E687A0EA276A58C100555375 /* sample.swift in Sources */,
+				E687A0FD276B708100555375 /* SliderCell.swift in Sources */,
+				E687A0F5276B30C900555375 /* ProfCollectionView.swift in Sources */,
 				9C90839B2768DC9F002F615E /* AppDelegate.swift in Sources */,
+				E687A0FF276B7BAC00555375 /* SeeProfView.swift in Sources */,
+				E687A0FB276B5AF300555375 /* WriteProfView2.swift in Sources */,
 				9C90839D2768DC9F002F615E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

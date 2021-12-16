@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E6M-H4-Kzl">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -8,6 +8,207 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GDJ-S9-1d8">
+            <objects>
+                <tabBarController id="E6M-H4-Kzl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ald-TM-yF5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QRQ-ad-90A" kind="relationship" relationship="viewControllers" id="hTT-yr-dqJ"/>
+                        <segue destination="kQ2-QJ-1gc" kind="relationship" relationship="viewControllers" id="ViN-Pq-uKw"/>
+                        <segue destination="xOV-li-iZK" kind="relationship" relationship="viewControllers" id="aqX-Gc-xjs"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5h-BR-8C3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2513" y="1734"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="kwy-6R-1l7">
+            <objects>
+                <navigationController id="kQ2-QJ-1gc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="FdS-8K-2a3"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vwp-lf-uu8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="t4J-AH-x4v" kind="relationship" relationship="rootViewController" id="CcO-be-4qu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3I-ta-Bsc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1571" y="1810"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="RUZ-hr-iIR">
+            <objects>
+                <navigationController id="xOV-li-iZK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="xsh-iy-UAK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oPB-rv-rXN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gWK-aR-dhP" kind="relationship" relationship="rootViewController" id="CGy-fW-9L4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ja-BT-qmr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1571" y="2646"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="TQi-XF-ibS">
+            <objects>
+                <navigationController id="QRQ-ad-90A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1Ft-0n-trY"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9J-IZ-Oty">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9Pl-Wk-L8q" kind="relationship" relationship="rootViewController" id="f8l-If-wlW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mgK-ur-MX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1571" y="1026"/>
+        </scene>
+        <!--プロフをおねがいする-->
+        <scene sceneID="BnF-fS-RYJ">
+            <objects>
+                <viewController id="9Pl-Wk-L8q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a6A-vi-AUH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WpT-U0-JRb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="プロフをおねがいする" id="LvR-wO-YhS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQJ-D5-sme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607" y="1026"/>
+        </scene>
+        <!--プロフコレクション-->
+        <scene sceneID="XX1-zh-nrc">
+            <objects>
+                <viewController id="gWK-aR-dhP" customClass="SeeProfView" customModule="Blue_ePro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xrp-1w-829">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Bw-oH-UwZ">
+                                <rect key="frame" x="0.0" y="36" width="414" height="651"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="zFo-D9-2Um">
+                                        <rect key="frame" x="151" y="591" width="113" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </pageControl>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="2CW-Ny-xCM"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="GPU-TD-SIW"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kku-Uf-M8p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="プロフコレクション" id="Xxp-bL-hXm"/>
+                    <connections>
+                        <outlet property="mainScrollView" destination="0Bw-oH-UwZ" id="q62-e0-qg3"/>
+                        <outlet property="pageControl" destination="zFo-D9-2Um" id="z96-B8-Kc1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xr-Za-3jI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.24637681159425" y="3329.347826086957"/>
+        </scene>
+        <!--おねがいされたプロフ-->
+        <scene sceneID="49u-bq-3A5">
+            <objects>
+                <viewController id="t4J-AH-x4v" customClass="WriteProfView" customModule="Blue_ePro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qt0-ST-mTB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vR-Yf-XNd">
+                                <rect key="frame" x="82" y="94" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="FKB-s7-n3U"/>
+                                    <constraint firstAttribute="height" constant="50" id="Mhh-V7-rld"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Aさんからおねがいされたよ"/>
+                                <connections>
+                                    <segue destination="dfb-jy-YuC" kind="show" id="gpf-CH-Qsh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qEn-hv-fWt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6vR-Yf-XNd" firstAttribute="centerX" secondItem="Qt0-ST-mTB" secondAttribute="centerX" id="Hr6-f9-mEN"/>
+                            <constraint firstItem="6vR-Yf-XNd" firstAttribute="top" secondItem="qEn-hv-fWt" secondAttribute="top" constant="50" id="QBf-f7-qfs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="おねがいされたプロフ" id="Soa-PT-1dY"/>
+                    <connections>
+                        <outlet property="request1" destination="6vR-Yf-XNd" id="I6q-y4-MLH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iFa-Sq-dUg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.24637681159425" y="1809.7826086956522"/>
+        </scene>
+        <!--プロフをかく-->
+        <scene sceneID="8Ai-yN-F35">
+            <objects>
+                <viewController id="dfb-jy-YuC" customClass="WriteProfView2" customModule="Blue_ePro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BtK-ED-iR0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WriteProf2" translatesAutoresizingMaskIntoConstraints="NO" id="nde-yq-Fip">
+                                <rect key="frame" x="2" y="93" width="410" height="550"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="550" id="8ZU-Vf-JJN"/>
+                                    <constraint firstAttribute="width" constant="410" id="MDR-B6-Ir0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PRp-cj-NUm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nde-yq-Fip" firstAttribute="centerY" secondItem="BtK-ED-iR0" secondAttribute="centerY" id="sbm-6f-xfB"/>
+                            <constraint firstItem="nde-yq-Fip" firstAttribute="centerX" secondItem="BtK-ED-iR0" secondAttribute="centerX" id="tkM-X5-LgG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="プロフをかく" id="IXW-uq-3xG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yer-YF-KdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408.69565217391306" y="1811.413043478261"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Zc-Kn-ZCK">
+            <objects>
+                <viewController id="Jws-eN-auP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wSh-RL-FCp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="COp-z6-TTH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M9g-3H-SIL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="1811"/>
+        </scene>
         <!--login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -280,6 +481,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="WriteProf2" width="414" height="736"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
