@@ -18,7 +18,6 @@ class SeeProfView: UIViewController {
 
     @IBOutlet private weak var mainScrollView: UIScrollView!
     @IBOutlet private weak var pageControl: UIPageControl!
-    @IBOutlet weak var button: UIButton!
 
 
     /// 現在のページインデックス
@@ -26,6 +25,7 @@ class SeeProfView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addBackground(name: "background-clover")
         setupPageControl()
     }
 

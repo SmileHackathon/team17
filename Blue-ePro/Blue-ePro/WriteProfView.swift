@@ -13,7 +13,7 @@ class WriteProfView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.addBackground(name: "background-clover")
         request1.layer.cornerRadius = 50.0
     }
 
