@@ -560,6 +560,11 @@
                             <constraint firstItem="drU-OY-8w1" firstAttribute="top" secondItem="8nF-LM-Mad" secondAttribute="bottom" constant="50" id="uvD-r3-kt9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="FamilyName" destination="hi6-a0-oEH" id="JkC-lr-0Lq"/>
+                        <outlet property="FirstName" destination="fzU-Vc-NPn" id="KWb-wP-oH2"/>
+                        <outlet property="SchoolName" destination="IUs-bb-pYr" id="xi3-k9-AJV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftz-9T-KE8" sceneMemberID="firstResponder"/>
             </objects>

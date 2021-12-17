@@ -20,13 +20,17 @@ class RequestView: UIViewController {
         super.viewDidLoad()
         self.view.addBackground(name: "background-clover")
         
+        DropDown.appearance().cornerRadius = 10
+        
         lblTitle.text = "なまえをえらんでね"
         
         dropDown.anchorView = vwDropDown
         dropDown.dataSource = dropDownValues
+        
         // Top of drop down will be below the anchorView
         dropDown.bottomOffset = CGPoint(x: 0, y:(dropDown.anchorView?.plainView.bounds.height)!)
         dropDown.direction = .bottom
+        
         // Action triggered on selection
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
           print("Selected item: \(item) at index: \(index)")
