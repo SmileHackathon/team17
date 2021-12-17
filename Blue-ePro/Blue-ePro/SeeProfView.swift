@@ -25,7 +25,7 @@ class SeeProfView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addBackground(name: "background-clover")
+        self.view.addBackground(name: "background")
         setupPageControl()
     }
 

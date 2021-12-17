@@ -9,12 +9,12 @@ import UIKit
 
 class WriteProfView: UIViewController {
 
-    @IBOutlet weak var request1: UIButton!
+//    @IBOutlet weak var request1: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addBackground(name: "background-clover")
-        request1.layer.cornerRadius = 50.0
+        self.view.addBackground(name: "background")
+//        request1.layer.cornerRadius = 50.0
     }
 
 }

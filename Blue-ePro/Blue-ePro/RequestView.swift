@@ -13,12 +13,16 @@ class RequestView: UIViewController {
     @IBOutlet weak var vwDropDown: UIView!
     @IBOutlet weak var lblTitle: UILabel!
 
+    @IBOutlet weak var onSend: UIButton!
+    
     let dropDown = DropDown()
-    let dropDownValues = ["阿部伊緒莉","山田太郎"]
+    let dropDownValues = ["阿部伊緒莉 ちゃん","藤野加代 ちゃん","森本真以 ちゃん"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addBackground(name: "background-clover")
+        self.view.addBackground(name: "background")
+        
+        onSend.backgroundColor = UIColor(hex: "8ACC1E")
         
         DropDown.appearance().cornerRadius = 10
         
