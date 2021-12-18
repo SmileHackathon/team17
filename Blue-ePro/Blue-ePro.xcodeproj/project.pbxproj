@@ -24,6 +24,7 @@
 		E687A0FF276B7BAC00555375 /* SeeProfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A0FE276B7BAC00555375 /* SeeProfView.swift */; };
 		E687A101276C23CF00555375 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A100276C23CF00555375 /* LoginView.swift */; };
 		E687A103276C439400555375 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A102276C439400555375 /* RequestView.swift */; };
+		E687A105276CF18400555375 /* RequestSentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E687A104276CF18400555375 /* RequestSentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E687A0FE276B7BAC00555375 /* SeeProfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeProfView.swift; sourceTree = "<group>"; };
 		E687A100276C23CF00555375 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E687A102276C439400555375 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		E687A104276CF18400555375 /* RequestSentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				E687A0FE276B7BAC00555375 /* SeeProfView.swift */,
 				E687A100276C23CF00555375 /* LoginView.swift */,
 				E687A102276C439400555375 /* RequestView.swift */,
+				E687A104276CF18400555375 /* RequestSentView.swift */,
 				E687A0ED276A633500555375 /* MyPlayground.playground */,
 			);
 			path = "Blue-ePro";
@@ -250,6 +253,7 @@
 				E687A103276C439400555375 /* RequestView.swift in Sources */,
 				E687A101276C23CF00555375 /* LoginView.swift in Sources */,
 				E687A0FB276B5AF300555375 /* WriteProfView2.swift in Sources */,
+				E687A105276CF18400555375 /* RequestSentView.swift in Sources */,
 				9C90839D2768DC9F002F615E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
